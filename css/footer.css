@@ -1,0 +1,8 @@
+.footer {
+  background-color: #1b1b1b;
+  color: #fff;
+}
+.footer__body {
+  padding: 80px 0px 50px 0px;
+  text-align: center;
+}

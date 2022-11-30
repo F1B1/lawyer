@@ -1,0 +1,24 @@
+.page {
+  flex: 1 1 auto;
+}
+.main-slider {
+  position: relative;
+}
+.main-slider__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.main-slider__body {
+  width: 650px;
+  position: relative;
+  z-index: 3;
+  padding: 180px 0 70px 0;
+  color: #fff;
+}
+.main-slider__title {
+  font-size: 78px;
+  font-family: "Playfair Display";
+}

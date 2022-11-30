@@ -1,0 +1,39 @@
+
+.footer {
+	background-color:#1b1b1b ;
+	color: #fff;
+	&__container {}
+	&__body {
+		padding: 80px 0px 50px 0px;
+		text-align: center;
+	}
+	&__title {
+		@include adaptiveValue("font-size",30 ,20,1 );
+		font-weight: 600;
+		@include adaptiveValue("padding-bottom",40 ,25,1 );
+	}
+	&__address {
+		color: #afa698;
+	}
+	&__phone{
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		color: #afa698;
+		@include adaptiveValue("margin-bottom",25 ,15,1 );
+	}
+	&__link {
+		u{
+			@include adaptiveValue("margin-bottom",25 ,15,1 );
+			font-size: 14px;
+			color: #ff84628a;
+		}
+	}
+	&__text {
+		padding-top: 20px;
+		font-size: 14px;
+	}
+}
+
+
+//====================================================================================================

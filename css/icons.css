@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "icons";
+  src: url("..fonts/icons.woff") format("woff"), url("..fonts/icons.woff2#icons") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-display: block;
+}
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  display: block;
+}
+
+._icon-whatsapp:before {
+  content: "\e901";
+  color: #fff;
+  background-color: #40C351;
+  width: 32px;
+  border-radius: 2px;
+}
+
+._icon-facetime:before {
+  content: "\e903";
+  color: rgb(253, 243, 243);
+  background-color: #00FF00;
+  width: 20px;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+._icon-telegram:before {
+  content: "\e904";
+  color: #009eeb;
+}
+
+._icon-vk:before {
+  content: "\e905";
+  color: #3e73a3;
+}
+
+._icon-phone:before {
+  content: "\e906";
+  color: #fff;
+  margin-right: 10px;
+}
