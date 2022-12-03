@@ -343,6 +343,65 @@ body {
 .page {
   flex: 1 1 auto;
 }
+.isShowBtn {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  width: 40px;
+  z-index: 10;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 50%;
+  background-color: #BC8664;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.isShowBtn_hide {
+  opacity: 0;
+}
+.isShowBtn:hover:focus {
+  filter: brightness(1.2);
+  outline: none;
+}
+.isShowBtn::after, .isShowBtn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.isShowBtn::before {
+  width: 4px;
+  height: 20px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #fff;
+}
+.isShowBtn::after {
+  width: 15px;
+  height: 15px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+@media (max-width: 29.99875em) {
+  .isShowBtn {
+    width: 30px;
+    height: 30px;
+    right: 10px;
+  }
+  .isShowBtn::before {
+    height: 13px;
+    width: 3px;
+  }
+  .isShowBtn::after {
+    width: 11px;
+    height: 11px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+  }
+}
+
 .main-slider {
   position: relative;
 }
