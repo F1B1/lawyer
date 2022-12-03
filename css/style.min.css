@@ -437,35 +437,17 @@ body {
 }
 
 .item-slider {
-  max-width: 450px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.item-slider div {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 .item-slider__phone-1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 .item-slider__phone-2 {
-  display: flex;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
   align-items: center;
-}
-.item-slider__facetime {
   display: flex;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  align-items: center;
 }
 
 .about {
