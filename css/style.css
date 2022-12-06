@@ -345,8 +345,8 @@ body {
 }
 .isShowBtn {
   position: fixed;
-  right: 30px;
-  bottom: 20px;
+  right: 40px;
+  bottom: 45px;
   width: 40px;
   z-index: 10;
   height: 40px;
@@ -386,17 +386,17 @@ body {
 }
 @media (max-width: 29.99875em) {
   .isShowBtn {
-    width: 30px;
-    height: 30px;
-    right: 10px;
+    width: 34px;
+    height: 34px;
+    right: 15px;
   }
   .isShowBtn::before {
-    height: 13px;
+    height: 16px;
     width: 3px;
   }
   .isShowBtn::after {
-    width: 11px;
-    height: 11px;
+    width: 12px;
+    height: 12px;
     border-top: 3px solid #fff;
     border-left: 3px solid #fff;
   }
