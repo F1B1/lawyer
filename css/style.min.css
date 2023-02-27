@@ -608,7 +608,7 @@ body {
 
 .rate {
   background-color: #F8F6F4;
-  padding-top: calc(1.875rem + 1.25 * (((100vw - 20rem)) / ((70))));
+  padding-top: calc(5.625rem + 1.25 * (((100vw - 20rem)) / ((70))));
   padding-bottom: calc(1.875rem + 1.25 * (((100vw - 20rem)) / ((70))));
 }
 .rate__title {
@@ -679,7 +679,7 @@ body {
 }
 
 .bid {
-  padding: 50px 0px 50px 0px;
+  padding: 110px 0px 50px 0px;
   background-color: #f9f9f9;
 }
 .bid__body {
