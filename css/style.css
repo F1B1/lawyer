@@ -452,7 +452,7 @@ body {
 
 .about-main {
   padding-top: calc(3.125rem + 1.25 * (((100vw - 20rem)) / ((70))));
-  padding-top: calc(3.125rem + 2.5 * (((100vw - 20rem)) / ((70))));
+  padding-bottom: calc(3.125rem + 2.5 * (((100vw - 20rem)) / ((70))));
 }
 
 .about {
